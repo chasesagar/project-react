@@ -1,10 +1,10 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.transparent-navabr{
+  background-color: transparent;
 }
